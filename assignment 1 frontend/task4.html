@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4 - Grades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+        <a href="task5.html">Task 5</a>
+    </nav>
+
+    <h1 id="grades-title">Student Grades</h1>
+
+    <table class="grades-table">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>Marzhan Askarova</td>
+            <td>Web Technologies</td>
+            <td>95</td>
+        </tr>
+
+        <tr class="highlight">
+            <td>Marzhan Askarova</td>
+            <td>Programming</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Marzhan Askarova</td>
+            <td>Database</td>
+            <td>88</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Average Grade</td>
+            <td>91</td>
+        </tr>
+    </table>
+    <h1>Feedback Form</h1>
+
+<form class="feedback-form">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="role">Role:</label>
+    <select id="role" name="role">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Other</option>
+    </select>
+
+    <label>Are you satisfied?</label>
+
+    <div>
+        <input type="radio" id="yes" name="satisfied" value="yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="satisfied" value="no">
+        <label for="no">No</label>
+    </div>
+
+    <label for="message">Feedback:</label>
+    <textarea id="message" name="message" rows="5"></textarea>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>

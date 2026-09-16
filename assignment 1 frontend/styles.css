@@ -1,0 +1,287 @@
+body {
+    background: linear-gradient(135deg, #ffd6e7, #fff5f9);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    color: #4a2635;
+}
+
+nav {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(150, 70, 100, 0.15);
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+}
+
+nav a {
+    color: #9b4167;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e75480;
+}
+
+h1 {
+    color: #9b4167;
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    color: #b84d78;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.profile-card {
+    background-color: white;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(150, 70, 100, 0.2);
+    border: 2px solid #f3b6cb;
+}
+
+.profile-card img {
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f3b6cb;
+}
+
+.profile-card h2 {
+    margin-bottom: 10px;
+    color: #9b4167;
+}
+
+ol, ul {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(150, 70, 100, 0.1);
+}
+
+a {
+    color: #c44775;
+}
+
+a:hover {
+    color: #e75480;
+}
+#task-title {
+    letter-spacing: 2px;
+}
+.links {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.links a {
+    display: inline-block;
+    background-color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(150, 70, 100, 0.15);
+}
+
+.links a:hover {
+    background-color: #f3b6cb;
+    color: white;
+}
+header {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(150, 70, 100, 0.15);
+}
+
+.main-content {
+    float: right;
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(150, 70, 100, 0.15);
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.sidebar p {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.sidebar p:hover {
+    background-color: #f3b6cb;
+    color: white;
+}
+img {
+    display: block;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    margin: 25px auto;
+    border-radius: 20px;
+    border: 5px solid #f3b6cb;
+    box-shadow: 0 6px 15px rgba(150, 70, 100, 0.2);
+}
+.tribute-links {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.tribute-links a {
+    display: inline-block;
+    background-color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(150, 70, 100, 0.15);
+}
+
+.tribute-links a:hover {
+    background-color: #f3b6cb;
+    color: white;
+}
+
+.learn-button {
+    display: block;
+    width: 180px;
+    margin: 20px auto 40px auto;
+    padding: 14px;
+    text-align: center;
+    background-color: #b84d78;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.learn-button:hover {
+    background-color: #e75480;
+}
+.grades-table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(150, 70, 100, 0.15);
+}
+
+.grades-table th {
+    background-color: #b84d78;
+    color: white;
+    padding: 15px;
+}
+
+.grades-table td {
+    border: 1px solid #f3b6cb;
+    padding: 15px;
+    text-align: center;
+}
+
+.grades-table tr:nth-child(even) {
+    background-color: #fff0f5;
+}
+
+.grades-table .highlight {
+    background-color: #f3b6cb;
+    font-weight: bold;
+}
+
+#grades-title {
+    text-align: center;
+    color: #9b4167;
+}
+.feedback-form {
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(150, 70, 100, 0.15);
+    box-sizing: border-box;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #9b4167;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #f3b6cb;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.feedback-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.feedback-form button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 12px 30px;
+    background-color: #b84d78;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #e75480;
+}
